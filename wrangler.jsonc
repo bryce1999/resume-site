@@ -1,8 +1,8 @@
 {
-  "name": "worker-name",
-  "compatibility_date": "2026-02-16",
-  "compatibility_flags": [
+  "name": "hello-python",
+	"main": "app.py",
+	"compatibility_date": "2026-16-02",
+	"compatibility_flags": [
 		"python_workers"
 	],
-  "main": "/app.py"
 }
