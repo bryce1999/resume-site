@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Bryce Breedlove — System & Infrastructure Engineer II. Windows + Apple administration, PowerShell & Python automation, troubleshooting at scale, and internal tooling." />
+
+  <title>Bryce Breedlove | System & Infrastructure Engineer</title>
+
+  <meta property="og:title" content="Bryce Breedlove | System & Infrastructure Engineer" />
+  <meta property="og:description" content="Windows + Apple administration • PowerShell & Python automation • 9,000+ issues resolved • Cisco Certified DevNet Associate" />
+  <meta property="og:type" content="website" />
+
+  <meta name="theme-color" content="#0b0f1a" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Optional: modern webfont. Site fully works without it. -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Bryce Breedlove",
+    "jobTitle": "System & Infrastructure Engineer II",
+    "email": "Brycebreedlo@gmail.com",
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="brand" aria-label="Site home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div class="brand-text">
+          <div class="brand-name">Bryce Breedlove</div>
+          <div class="brand-role">System & Infrastructure Engineer II</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#impact">Impact</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#work">Work</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+            <path d="M12 18a6 6 0 1 0 0-12a6 6 0 0 0 0 12Z" fill="currentColor" opacity="0.9"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <a class="btn btn-ghost" href="{{ url_for('static', filename='Bryce_Breedlove_Resume.pdf') }}" target="_blank" rel="noopener">Resume</a>
+        <a class="btn btn-primary" href="#contact">Let’s talk</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Cisco Certified DevNet Associate • Windows & Apple Administration • Automation</p>
+          <h1>
+            I build reliable systems and internal tooling that remove friction for teams.
+          </h1>
+          <p class="lead">
+            I’m Bryce — a System & Infrastructure Engineer with a track record of resolving <strong>9,000+</strong> software & hardware issues,
+            improving workflows, and automating high-volume operations with <strong>PowerShell</strong> and <strong>Python</strong>.
+            I’m targeting a <strong>Software Engineering</strong> role where I can ship practical solutions and raise the quality bar.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:Brycebreedlo@gmail.com">Email Bryce</a>
+            <a class="btn btn-ghost" href="{{ url_for('static', filename='Bryce_Breedlove_Resume.pdf') }}" target="_blank" rel="noopener">Download resume</a>
+          </div>
+
+          <!-- <div class="quick-stats" role="list" aria-label="Key stats">
+            <div class="stat" role="listitem">
+              <div class="stat-kpi">10,000+</div>
+              <div class="stat-label">Issues resolved</div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat-kpi">Thousands / mo.</div>
+              <div class="stat-label">Shipping labels automated</div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat-kpi">Windows + Apple</div>
+              <div class="stat-label">System administration</div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat-kpi">DevNet</div>
+              <div class="stat-label">Cisco certification</div>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="hero-card reveal" aria-label="Hiring manager summary">
+          <div class="card glass">
+            <div class="card-header">
+              <h2 class="card-title">What you’ll learn in 60 seconds</h2>
+              <p class="card-subtitle">The details hiring managers usually scan for.</p>
+            </div>
+
+            <ul class="checklist">
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                <span><strong>Build + improve tooling:</strong> created MVP tools and used GenAI ticket auditing to speed technician workflows.</span>
+              </li>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                <span><strong>Automation at scale:</strong> Python + FedEx API automation producing thousands of labels per month for multi-team shipping.</span>
+              </li>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                <span><strong>Operational impact:</strong> integrated break/fix requirements into services, improving outcomes and weekly ticket closure rates.</span>
+              </li>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                <span><strong>Documentation + leadership:</strong> trained teammates, improved processes, and authored troubleshooting docs (Root CA repairs, profile rebuilds, elevated accounts).</span>
+              </li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="badge">Open to: Software Engineering</div>
+              <div class="pill">PowerShell</div>
+              <div class="pill">Python</div>
+              <div class="pill">Systems</div>
+              <div class="pill">Automation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" aria-label="About">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>About</h2>
+          <p>
+            Skilled IT professional with a <strong>Cisco Certified DevNet Associate</strong> certification, specializing in system administration for
+            both Windows and Apple environments. Known for high-volume troubleshooting, building practical solutions, and improving team workflows.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <h3>What I do best</h3>
+            <ul class="bullets">
+              <li>Diagnose and resolve complex software + hardware issues quickly and cleanly.</li>
+              <li>Turn pain points into tools: scripts, MVPs, and workflow accelerators.</li>
+              <li>Document repeatable fixes so teams scale without tribal knowledge.</li>
+              <li>Lead through influence: training, process improvements, and cross-team collaboration.</li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <h3>What I’m looking for</h3>
+            <p>
+              A Software Engineering role where I can ship automation and internal products that measurably improve operational outcomes —
+              faster resolutions, fewer manual steps, and more reliable systems.
+            </p>
+            <div class="tag-row" aria-label="Focus areas">
+              <span class="tag">Internal tools</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Operational excellence</span>
+              <span class="tag">Customer outcomes</span>
+              <span class="tag">Systems reliability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="section" id="impact" aria-label="Impact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Impact highlights</h2>
+          <p>Concrete outcomes and behaviors that translate directly to engineering teams.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card reveal">
+            <h3>Shipped workflow accelerators</h3>
+            <p>
+              Participated in projects building technical solutions from scratch, created MVP tools to speed technician workflows,
+              and provided feedback on scripts being implemented by engineering teams.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Improved weekly closure rates</h3>
+            <p>
+              Integrated hardware break/fix requirements into tech bar services to improve customer outcomes
+              and increase weekly ticket closure rates.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Scaled knowledge, not heroics</h3>
+            <p>
+              Authored troubleshooting documentation for elevated accounts, profile rebuilds, Root CA repairs,
+              client network settings requirements, and more.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Skills</h2>
+          <p>Modern, practical skills aligned with high-trust support + systems engineering work.</p>
+        </div>
+
+        <div class="card reveal">
+          <div class="skill-grid" role="list">
+            <div class="skill" role="listitem">
+              <div class="skill-title">System administration</div>
+              <div class="skill-desc">Advanced Windows & Apple administration in customer-facing environments.</div>
+            </div>
+            <div class="skill" role="listitem">
+              <div class="skill-title">Troubleshooting</div>
+              <div class="skill-desc">Software + hardware break/fix, root-cause mindset, repeatable resolutions.</div>
+            </div>
+            <div class="skill" role="listitem">
+              <div class="skill-title">Scripting</div>
+              <div class="skill-desc">PowerShell & Python automation for operational scale and accuracy.</div>
+            </div>
+            <div class="skill" role="listitem">
+              <div class="skill-title">Technical documentation</div>
+              <div class="skill-desc">Clear runbooks and troubleshooting docs (Root CA repairs, profile rebuilds, elevated accounts).</div>
+            </div>
+            <div class="skill" role="listitem">
+              <div class="skill-title">Analytical problem-solving</div>
+              <div class="skill-desc">Ticket auditing, pattern detection, and process improvements that stick.</div>
+            </div>
+            <div class="skill" role="listitem">
+              <div class="skill-title">Team leadership</div>
+              <div class="skill-desc">Training teammates, leading discussions with L2 + product teams, and improving customer experience.</div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="tag-row" aria-label="Skill tags">
+            <span class="tag">Windows</span>
+            <span class="tag">Apple</span>
+            <span class="tag">PowerShell</span>
+            <span class="tag">Python</span>
+            <span class="tag">FedEx API</span>
+            <span class="tag">GenAI tools</span>
+            <span class="tag">Documentation</span>
+            <span class="tag">Process improvement</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- SELECTED WORK -->
+    <section class="section" id="work" aria-label="Selected work">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Selected work</h2>
+          <p>Work samples described from real responsibilities in Bryce’s roles (no fluff, just outcomes).</p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>GenAI ticket auditing + workflow MVPs</h3>
+            <p>
+              Used GenAI tools to audit tickets and identify opportunities for technician workflow improvements.
+              Built MVP tooling to reduce manual steps and improve consistency.
+            </p>
+            <div class="meta">
+              <span class="pill">MVP tooling</span>
+              <span class="pill">Ticket operations</span>
+              <span class="pill">GenAI</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Hardware break/fix requirements → tech bar services</h3>
+            <p>
+              Integrated break/fix requirements into tech bar service offerings to improve customer outcomes
+              and raise weekly ticket closure rates.
+            </p>
+            <div class="meta">
+              <span class="pill">Customer outcomes</span>
+              <span class="pill">Operational integration</span>
+              <span class="pill">Service design</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>Troubleshooting knowledge base</h3>
+            <p>
+              Authored and shared internal documentation covering elevated accounts, profile rebuilds,
+              Root CA repairs, and client network settings requirements — enabling faster escalations and fewer repeat incidents.
+            </p>
+            <div class="meta">
+              <span class="pill">Docs</span>
+              <span class="pill">Root CA</span>
+              <span class="pill">Runbooks</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>FedEx shipping label automation</h3>
+            <p>
+              Built Python scripts that interface with the FedEx API to automate shipping label creation.
+              Produced thousands of labels per month for multiple teams shipping laptops, iPads, and other hardware.
+            </p>
+            <div class="meta">
+              <span class="pill">Python</span>
+              <span class="pill">FedEx API</span>
+              <span class="pill">Automation</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience" aria-label="Experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Experience</h2>
+          <p>Roles and responsibilities (written to be scannable by hiring managers).</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content card">
+              <div class="timeline-top">
+                <div>
+                  <h3>Systems Engineer II <span class="muted">• ADE TechSpot</span></h3>
+                  <div class="timeline-meta">Oct 2021 – Present</div>
+                </div>
+                <div class="timeline-chip">Current</div>
+              </div>
+
+              <ul class="bullets">
+                <li>Built technical solutions from scratch and created MVP tools to speed technician workflows.</li>
+                <li>Used GenAI tools to audit tickets and identify repeatable improvements.</li>
+                <li>Integrated hardware break/fix requirements into tech bar services to improve customer outcomes and weekly closure rates.</li>
+                <li>Trained teammates, introduced process improvements, and led discussions with L2 and product teams.</li>
+                <li>Authored troubleshooting documentation: elevated accounts, profile rebuilds, Root CA repairs, client network settings requirements, and more.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content card">
+              <div class="timeline-top">
+                <div>
+                  <h3>Technician V <span class="muted">• Walmart ADE Onsite</span></h3>
+                  <div class="timeline-meta">Jun 2019 – Oct 2021</div>
+                </div>
+              </div>
+
+              <ul class="bullets">
+                <li>Migrated and deployed Windows and Apple systems to maintain optimal system performance.</li>
+                <li>Automated shipping label creation with Python scripts integrating with FedEx’s API, producing thousands of labels per month for multiple teams.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION + CERT -->
+    <section class="section" id="education" aria-label="Education and certification">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Education & certification</h2>
+          <p>Relevant coursework and certifications.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <h3>Certification</h3>
+            <p class="big">Cisco Certified DevNet Associate</p>
+            <p class="muted">Developer-focused networking certification supporting automation and integration work.</p>
+          </div>
+
+          <div class="card reveal">
+            <h3>Education</h3>
+            <p class="big">College coursework</p>
+            <ul class="bullets">
+              <li>Networking</li>
+              <li>Systems analysis</li>
+              <li>Programming</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact" aria-label="Contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p>Fastest way to reach Bryce is email. Phone is available for quick calls.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="card reveal">
+            <h3>Reach out</h3>
+            <div class="contact-row">
+              <span class="label">Email</span>
+              <a class="link" href="mailto:Brycebreedlo@gmail.com">Brycebreedlo@gmail.com</a>
+            </div>
+            <div class="contact-row">
+              <span class="label">Resume</span>
+              <a class="link" href="{{ url_for('static', filename='Bryce_Breedlove_Resume.pdf') }}" target="_blank" rel="noopener">Download PDF</a>
+            </div>
+
+            <div class="divider"></div>
+
+            <p class="muted">
+              If you’re hiring for a role that touches internal tooling, automation, or software development, 
+              I’d love to connect and share how my experience can help your team ship practical solutions that improve outcomes.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="mailto:Brycebreedlo@gmail.com?subject=Interview%20-%20Bryce%20Breedlove">Email for interview</a>
+              <a class="btn btn-ghost" href="#top">Back to top</a>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Quick screening answers</h3>
+            <details class="faq" open>
+              <summary>What’s Bryce’s strongest domain?</summary>
+              <p>System administration across Windows & Apple, paired with automation (PowerShell/Python) to reduce repetitive work.</p>
+            </details>
+            <details class="faq">
+              <summary>Any proof of scale?</summary>
+              <p>Resolved 9,000+ software/hardware issues, and shipped automation that produced thousands of FedEx labels per month.</p>
+            </details>
+            <details class="faq">
+              <summary>What kind of engineering role fits best?</summary>
+              <p>Internal tools, support engineering, automation, platform ops, and teams where shipping pragmatic improvements matters.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-name">Bryce Breedlove</div>
+        <div class="footer-meta">System & Infrastructure Engineer II</div>
+      </div>
+      <div class="footer-meta">
+        <span id="year"></span> • Built as a lightweight, fast, single-page portfolio.
+      </div>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
