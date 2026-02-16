@@ -1,7 +1,7 @@
 {
   "name": "hello-python",
 	"main": "app.py",
-	"compatibility_date": "2026-16-02",
+	"compatibility_date": "2026-02-16",
 	"compatibility_flags": [
 		"python_workers"
 	]
