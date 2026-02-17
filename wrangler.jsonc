@@ -5,6 +5,7 @@
 {
 	"name": "resume-site",
 	"main": "src/app.py",
+	"route": "example.com/*",
 	"compatibility_date": "2026-02-12",
 	"compatibility_flags": [
 		"python_workers"
@@ -12,7 +13,12 @@
 	"assets": {
 		"directory": "./dist",
 		"binding": "ASSETS"
-  	}
+  	},
+	"observability": {
+		"enabled": true
+	}
+}
+
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
