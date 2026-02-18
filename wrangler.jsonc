@@ -5,7 +5,7 @@
 {
 	"name": "resume-site",
 	"main": "src/app.py",
-	"route": "example.com/*",
+	"route": "brycebreedlove.com/*",
 	"compatibility_date": "2026-02-12",
 	"compatibility_flags": [
 		"python_workers"
