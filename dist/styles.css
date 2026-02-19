@@ -605,6 +605,36 @@ html[data-theme="light"] .btn-primary {
   font-size: 13px;
 }
 
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(139, 92, 246, 0.22);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms ease, background 200ms ease;
+  z-index: 10;
+}
+
+.back-to-top:hover {
+  background: rgba(139, 92, 246, 0.32);
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 /* Reveal animation */
 .reveal {
   opacity: 0;
